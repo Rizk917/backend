@@ -23,5 +23,5 @@ const conn = mongoose.connection;
 app.use(express.json());
 app.use("/assesment",assesmentRoute);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5010;
 app.listen(port, console.log(`Listening on port ${port}...`));
